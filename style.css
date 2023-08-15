@@ -1,0 +1,397 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: auto; /* This prevents horizontal scrollbar due to the navbar */
+  
+ 
+
+}
+
+/* from here styling of divison one started*/
+
+@import url('preconnect" href="https://fonts.googleapis.com');
+.division_one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #6560f4;
+  height: 4vw;
+  gap: 2vw; /* used for creating gap betweeen eleemnts present inside one division(same division) */
+  position: fixed;
+  top:0;
+  width: 100%;
+
+
+}
+#navLogo {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-top: 3px;
+  /* width: 30px; */
+  height: 5vh;
+  width: 25vh;
+}
+
+#nav_menu {
+  display: flex;
+  gap: 70px; /*this gap is used to space the gap betweek elements of division no betweeen two division */
+  padding-left: 20px;
+}
+
+#home,
+#about,
+#info,
+#more {
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#navMenu {
+  height: 5px;
+  width: 8px;
+  padding-bottom: 3px;
+}
+
+#nav_search {
+  position: relative; /* To position the icon correctly */
+  padding-right: 20px;
+}
+
+#inputBar {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  width: 260px;
+  padding-left: 20px; /* Create space for the icon */
+}
+
+#navSearch {
+  position: absolute;
+  right: 27px; /* Adjust the position of the icon */
+  bottom: 10px;
+}
+
+/* Style the search icon image */
+#navSearch {
+  display: flex;
+  flex: 5;
+  width: 20px; /* Adjust the size of the icon */
+  height: 20px;
+  opacity: 0.5; /* Optional: Add a bit of transparency */
+}
+
+/* Hover effect for the icon */
+#navSearch:hover {
+  opacity: 1;
+}
+
+#ham {
+  height: 30px;
+  width: 30px;
+  padding-right: 50px;
+}
+
+/* from here styling of division two started */
+
+.division_two {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  
+}
+
+#divTwo_Image {
+  padding-left: 70px;
+  width: 380px;
+  
+}
+
+#divTwo_img {
+  padding-top: 4px;
+  border-radius: 20px;
+  background: lightgray 50% / cover no-repeat;
+  box-sizing: border-box;
+  width: 380px;
+  height: 412px;
+  flex-shrink: 0; /* this is given to not shrink agar koi screen narrow kr v rha h toh until and unless screen becomes really narrow*/
+
+  
+}
+
+
+
+
+#divtwo_Para {
+  border-radius: 20px;
+  border: 6px solid #fff;
+  background: #e5d8ff;
+  box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+  width: 920px;
+  color: #6f7373;
+  font-family: DM Sans;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 178.7%; /* 51.823px */
+  padding-left: 30px;
+
+  margin-left: 38px;
+}
+
+#divTwo_p {
+  padding-left: 30px;
+  color: #6f7373;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 178.7%; /* 51.823px */
+}
+
+#divTwo_social {
+
+  margin-right: 0; /* Remove the margin to the right for the floating item */
+  margin-left: auto; /* Push the item to the right */
+  height: 200px;
+  width: 65px;
+  position: sticky;
+
+ 
+  margin-top: 170px; /* Create space from the top */
+  float: right; /* Float the container to the right */
+
+  top:83px;
+
+}
+
+
+
+#wtsp {
+  border: 2.8px solid #000;
+  border-radius: 11px;
+
+  background: #fff;
+  width: 60px;
+}
+
+#fb,
+#twitter {
+  width: 66px;
+}
+
+/*from here styling of division three started */
+
+.division_three {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-right: 20px;
+  gap: 36px;
+  
+}
+.divThree_p {
+  color: #e5d8ff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 178.7%; /* 51.823px */
+  letter-spacing: 1.16px;
+  padding-left: 20px;
+}
+#thirdDiv_paraOne {
+  width: 250px;
+  height: 100px;
+  border-radius: 11px;
+  background: #929dff;
+  box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+}
+
+#thirdDiv_paraTwo {
+  width: 250px;
+  height: 100px;
+  border-radius: 11px;
+  background: #734cf2;
+  box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+}
+
+#thirdDiv_paraThree {
+  width: 250px;
+  height: 100px;
+  border-radius: 11px;
+  background: #d288ff;
+  box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+}
+
+#thirdDiv_paraFour {
+  width: 250px;
+  height: 100px;
+  border-radius: 11px;
+  background: #000;
+  box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+ 
+}
+
+#helpIcon{
+  
+ 
+  position: fixed;
+  right: 60px;
+  top: 580px;
+ 
+width: 140px;
+height: 140px;
+}
+/* here the styling of division four started */
+.division_four {
+  display: flex;
+  flex-direction: row;
+  margin-top: 110px;
+
+  align-items: center; /* Center items along the cross-axis (vertically) */
+
+  margin-left: 70px;
+  border-radius: 21px;
+  background: #483eff;
+  width: 90vw;
+  height: 110vh;
+  justify-content: space-evenly;
+  
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 25%; /* main parent(bare wale div ka 25 percent part info div le rha*/
+  gap: 30px;
+  padding-top: 30px;
+  margin-left: 40px;
+}
+
+.form-container {
+  width: 75%; /* main parent(bare wale div ka 75 percent part fomr div le rha*/
+  height: 80%;
+  border-radius: 19px;
+  background: #fff;
+  margin-right: 45px;
+}
+
+.divFour_one {
+  border-radius: 22px;
+  background: #bce0f6;
+  border: 3px solid #fff;
+  box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+  width: 83%;
+  height: 90px;
+
+  margin-bottom: 36px; /* Add space between divisions */
+}
+
+.divFour_two,
+.divFour_three {
+  border-radius: 22px;
+  border: 3px solid #fff;
+  background: #483eff;
+  width: 83%;
+  margin-bottom: 36px; /* Add space between divisions */
+  height: 90px;
+}
+
+#yourinfo {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-align: center;
+  padding-top: 12px;
+}
+
+#bookmark,
+#settings {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 12px;
+}
+/* Add this to your CSS file */
+@import url('preconnect" href="https://fonts.googleapis.com');
+
+#heading {
+  color: #04285a;
+  font-family: "Inter", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.99px;
+  text-align: center;
+  padding-right: 120px;
+  margin-right: 120px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+@import url('preconnect" href="https://fonts.googleapis.com');
+
+#name,
+#marks,
+#email,
+#phnno {
+  color: #04285a;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.94px;
+  padding-left: 90px;
+  padding-top: 15px;
+
+}
+
+
+#next{
+
+  color: white;
+  background-color: black;
+  border-radius: 9px;
+  width: 200px;
+  height:70px ;
+
+  
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.5px;
+
+
+bottom: 110px;
+right: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+margin-left: 740px;
+margin-top: 170px;
+
+}
+
